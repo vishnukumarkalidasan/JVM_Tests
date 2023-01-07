@@ -1,3 +1,5 @@
+JAVA program execution commands with debug options:
+
 java \
   -XX:+PrintCompilation \
   -XX:CompileOnly=HelloWorld::workload \
