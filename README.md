@@ -1,4 +1,4 @@
-JAVA program execution commands with debug options:
+JAVA program execution commands with debug options:-
 
 java \
   -XX:+PrintCompilation \
