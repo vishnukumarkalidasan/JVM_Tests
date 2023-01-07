@@ -21,3 +21,5 @@ java \
 search HotSpotJVMCIRuntime.java
 
 java -XX:+UnlockExperimentalVMOptions   -XX:+EnableJVMCI   -XX:+UseJVMCICompiler   -XX:-TieredCompilation   -XX:+PrintCompilation   -XX:CompileOnly=HelloWorld::workload HelloWorld
+
+-XX+PrintInterpreter  --> for printing template interpreter code
